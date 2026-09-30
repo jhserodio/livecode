@@ -11,7 +11,7 @@ unsigned long long fibo(int n) {
   unsigned long long curr = 1;
   unsigned long long next;
 
-  for (int i = 2; i <= n ; i++) {
+  for (int i = 2; i <= n; i++) {
     next = prev + curr;
     prev = curr;
     curr = next;
